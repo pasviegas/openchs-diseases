@@ -1,0 +1,18 @@
+{
+  "name": "openchs-diseases",
+  "version": "1.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "clean": "rimraf lib",
+    "build": "node build.js",
+    "prepublish": "npm run clean && npm run build"
+  },
+  "author": "Pedro Viegas <pedroasv@gmail.com> (pasviegas.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "glob": "7.0.3",
+    "lispljsp": "1.0.2",
+    "rimraf": "2.5.2"
+  }
+}
